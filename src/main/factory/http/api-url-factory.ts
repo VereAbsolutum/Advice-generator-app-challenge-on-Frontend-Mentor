@@ -1,0 +1,1 @@
+export const makeApiUrl = (): string => 'https://api.adviceslip.com/advice'

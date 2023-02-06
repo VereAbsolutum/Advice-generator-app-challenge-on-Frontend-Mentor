@@ -1,0 +1,10 @@
+@import url('https://fonts.google.com/specimen/Manrope');
+
+body {
+    font-family: 'Manrope', 'Open Sans';
+    font-weight: 800;
+    height: 100vh;
+    > * {
+        height: 100%;
+    }
+}

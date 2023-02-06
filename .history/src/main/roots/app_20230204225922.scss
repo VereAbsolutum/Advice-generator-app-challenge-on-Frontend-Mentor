@@ -1,0 +1,9 @@
+.icon {
+    background: hsl(193, 38%, 86%);
+    padding: 1rem;
+    border-radius: 50%;
+    transform: translate(-45%, -1%);
+    &:hover {
+        box-shadow: 10px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+}

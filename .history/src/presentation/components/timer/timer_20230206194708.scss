@@ -1,0 +1,12 @@
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 50px;
+    &-separator {
+        margin: 0 20px;
+    }
+}
+  
+

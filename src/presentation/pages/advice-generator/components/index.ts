@@ -1,0 +1,1 @@
+export { default as DiceButton } from './dice-button/dice-button'

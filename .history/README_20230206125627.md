@@ -1,0 +1,112 @@
+# Frontend Mentor - Advice generator app solution
+
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon
+
+### Screenshot
+
+![](./public/desktop-screenshot.PNG)
+
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- [SASS](https://sass-lang.com/) - CSS extention language
+- [React](https://reactjs.org/) - JS library
+- [Vite](https://vitejs.dev/) - React framework
+- [Typescript](https://www.typescriptlang.org/) - Typescript
+
+### What I learned
+
+During the development of the "Advice generator app challenge on Frontend Mentor", I learned to use various tools and technologies, including:
+
+Vite: I learned to use the Vite framework, specialized in React application development, to streamline the development process, creating efficient production builds and leveraging the benefits of ES Modules.
+
+Typescript: I learned to use Typescript to add typing to my Javascript code, preventing errors and improving the quality of my code.
+
+In addition, I learned other important concepts such as development best practices, accessibility, and others, that will assist me in future projects.
+
+_**HOT-TOPIC**_: I resolved the issue of the build not generating the route components by using HashRouter instead of BrowserRouter. This solution was found after searching on [Stack Overflow](https://stackoverflow.com/questions/51974369/what-is-the-difference-between-hashrouter-and-browserrouter-in-react/51976069#51976069). Exemple:
+
+```typescript
+import React from "react";
+import { Routes, Route, HashRouter } from "react-router-dom";
+import { MakeAdviceGenerator } from "../factory/pages";
+
+const App: React.FC = () => {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<MakeAdviceGenerator />} />
+      </Routes>
+    </HashRouter>
+  );
+};
+```
+
+export default App
+
+### Continued development
+
+- Implementing more advice categories and sources;
+- Adding the functionality to save the generated advice;
+- Adding the functionality to share the generated advice on social media platforms;
+- Adding dark mode support for better accessibility;
+- Improving the performance of the app with techniques like lazy loading;
+- Adding internationalization support for different languages;
+- Implementing a backend to store user generated data and provide more personalized advice.
+
+### Useful resources
+
+- [Example resource 1](https://www.youtube.com/watch?v=P0gpCCA8ZPs&t=3402s) - This helped me understand Clean Architecture and be able to implement it in this project
+
+## Author
+
+- Website - [VereAbsolutum](https://www.your-site.com)
+- Frontend Mentor - [@vereabsolutum](https://www.frontendmentor.io/profile/yourusername)
+
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
+## Acknowledgments
+
+I want to mention the people who helped me in this project. Even though the help was not direct. I learned how to implement Clean Architecture from the channels MongoDB and Full Cycle. They are amazing at explaning it and for creating a full video on how we can do it ([Full Cicle site](https://www.youtube.com/watch?v=P0gpCCA8ZPs&t=3402s) and [MongoDB site](https://www.youtube.com/watch?v=vV1wQ6GFH0A&list=PL9aKtVrF05DyEwK5kdvzrYXFdpZfj1dsG)).
+
+```
+
+```

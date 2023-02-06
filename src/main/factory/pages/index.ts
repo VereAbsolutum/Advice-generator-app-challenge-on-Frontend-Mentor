@@ -1,0 +1,1 @@
+export {default as MakeAdviceGenerator} from './advice-generator-factory'
