@@ -47,6 +47,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - Flexbox
+- [Clean Architecture](https://www.zup.com.br/blog/clean-architecture-arquitetura-limpa) - Organization, modularization, separation of responsibilities
 - [SASS](https://sass-lang.com/) - CSS extention language
 - [React](https://reactjs.org/) - JS library
 - [Vite](https://vitejs.dev/) - React framework
