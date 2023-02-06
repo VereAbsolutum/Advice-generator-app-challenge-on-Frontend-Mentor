@@ -78,9 +78,9 @@ const App: React.FC = () => {
     </HashRouter>
   );
 };
-```
 
 export default App
+```
 
 ### Continued development
 
@@ -98,8 +98,8 @@ export default App
 
 ## Author
 
-- Website - [VereAbsolutum](https://www.your-site.com)
-- Frontend Mentor - [@vereabsolutum](https://www.frontendmentor.io/profile/yourusername)
+- Website - [VereAbsolutum](https://vereabsolutum.github.io/Advice-generator-app-challenge-on-Frontend-Mentor/)
+- Frontend Mentor - [@vereabsolutum](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub)
 
 ## Acknowledgments
 
