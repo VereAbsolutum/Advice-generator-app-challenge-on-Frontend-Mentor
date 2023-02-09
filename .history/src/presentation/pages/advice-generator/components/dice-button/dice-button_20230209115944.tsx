@@ -10,7 +10,7 @@ export type Props = {
 
 const diceButton: React.FC<Props> = ({ nextAdvice, isLoading }) => {
     return (
-        <span className={`dice-button isloading-${isLoading}`} onClick={nextAdvice}>
+        <span className='dice-button' disabled={isLoading} onClick={nextAdvice}>
             <DiceImg />
         </span>
     )

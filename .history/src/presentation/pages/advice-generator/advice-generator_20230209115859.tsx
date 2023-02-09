@@ -38,6 +38,7 @@ const AdviceGenerator: React.FC<Props> = ({ getAdvice }) => {
   }
   return (
     <div className={'advice-container'}>
+
       <div className={'advice-card'}>
         <p className={'advice-header'}>
           advice #{advice && `${advice.id}`}

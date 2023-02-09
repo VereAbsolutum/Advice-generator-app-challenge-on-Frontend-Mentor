@@ -8,9 +8,9 @@ export type Props = {
     isLoading: boolean
 }
 
-const diceButton: React.FC<Props> = ({ nextAdvice, isLoading }) => {
+const diceButton: React.FC<Props> = ({ nextAdvice }) => {
     return (
-        <span className={`dice-button isloading-${isLoading}`} onClick={nextAdvice}>
+        <span className='dice-button' onClick={nextAdvice}>
             <DiceImg />
         </span>
     )
