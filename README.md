@@ -47,6 +47,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - Flexbox
+- [Clean Architecture](https://www.zup.com.br/blog/clean-architecture-arquitetura-limpa) - Organization, modularization, separation of responsibilities
 - [SASS](https://sass-lang.com/) - CSS extention language
 - [React](https://reactjs.org/) - JS library
 - [Vite](https://vitejs.dev/) - React framework
@@ -78,9 +79,9 @@ const App: React.FC = () => {
     </HashRouter>
   );
 };
-```
 
 export default App
+```
 
 ### Continued development
 
@@ -98,8 +99,8 @@ export default App
 
 ## Author
 
-- Website - [VereAbsolutum](https://www.your-site.com)
-- Frontend Mentor - [@vereabsolutum](https://www.frontendmentor.io/profile/yourusername)
+- Website - [VereAbsolutum](https://vereabsolutum.github.io/Advice-generator-app-challenge-on-Frontend-Mentor/)
+- Frontend Mentor - [@vereabsolutum](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub)
 
 ## Acknowledgments
 
